@@ -12,8 +12,8 @@
 ##################################################################
 
 MASTER_DIR=$1
-NOW=$(date +"%m_%d_%Y")
-OUTPUT_FILE=$NOW_contactsheet.jpg
+NOW=$(date +"%m_%d_%Y-%H%M")
+OUTPUT_FILE=$NOW-contactsheet.jpg
 
 echo "##################################################################"
 echo "Contact Sheet"
